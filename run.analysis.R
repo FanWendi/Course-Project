@@ -16,7 +16,6 @@ Tidy_Data$code <- activities[TidyData$code, 2]
 
 ## 4. Appropriately labels the data set with descriptive variable names. 
 
-names(Tidy_Data)[2] = "activity" 
 names(Tidy_Data)<-gsub("^t", "Time", names(Tidy_Data))
 names(Tidy_Data)<-gsub("^f", "Frequency", names(Tidy_Data))
 names(Tidy_Data)<-gsub("Acc", "Accelerometer", names(Tidy_Data))
@@ -25,6 +24,7 @@ names(Tidy_Data)<-gsub("BodyBody", "Body", names(Tidy_Data))
 names(Tidy_Data)<-gsub("Mag", "Magnitude", names(Tidy_Data))
 names(Tidy_Data)<-gsub("angle", "Angle", names(Tidy_Data))
 names(Tidy_Data)<-gsub("gravity", "Gravity", names(Tidy_Data))
+names(Tidy_Data)[2] = "activity"
 
 ## 5. From the data set in step 4, creates a second, independent tidy data set 
 ## with the average of each variable for each activity and each subject.
