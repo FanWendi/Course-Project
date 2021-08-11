@@ -10,4 +10,4 @@
 * Appropriately labels the data set with descriptive variable names.
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-``Second_Data.text`` consists of the average of each variable for each subject and each activity, going through the process described above.
+``Final_Data.text`` consists of the average of each variable for each subject and each activity, going through the process described above.
