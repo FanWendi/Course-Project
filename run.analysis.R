@@ -34,4 +34,3 @@ Second_Data <- Tidy_Data %>%
     summarise_all(funs(mean))
 
 write.table(Second_Data, "Second_Data.txt", row.name=FALSE)
-
